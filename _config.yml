@@ -1,0 +1,32 @@
+# My variables
+name:
+description:
+author:
+  name: Michał Daniel
+  email: contact@michaldaniel.eu
+  pgp: https://morningbird.eu/assets/download/contact-at-michaldaniel-eu.key
+copyright: Copyright Michał Daniel 2019+
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE", "CNAME", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+# Site
+url:
+website: morningbird.eu
+sources: https://github.com/michaldaniel

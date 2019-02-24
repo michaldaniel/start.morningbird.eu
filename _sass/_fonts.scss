@@ -1,0 +1,71 @@
+/* Inconsolata Regular - Latin extended */
+@font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.eot');
+	src: local('Inconsolata Regular'), local('Inconsolata-Regular'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.woff2') format('woff2'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.woff') format('woff'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.ttf') format('truetype'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.svg#Inconsolata') format('svg');
+}
+
+
+/* Noto Sans Regular - Latin extended */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.eot');
+  src: local('Noto Sans'), local('NotoSans'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.woff2') format('woff2'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.woff') format('woff'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.ttf') format('truetype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-regular.svg#NotoSans') format('svg');
+}
+
+
+/* Noto Sans 700 - Latin extended */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.eot');
+  src: local('Noto Sans Bold'), local('NotoSansBold'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.woff2') format('woff2'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.woff') format('woff'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.ttf') format('truetype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700.svg#NotoSans') format('svg');
+}
+
+/* Noto Sans Italic - Latin extended */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.eot');
+  src: local('Noto Sans Italic'), local('NotoSansItalic'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.woff2') format('woff2'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.woff') format('woff'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.ttf') format('truetype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-italic.svg#NotoSans') format('svg');
+}
+
+/* Noto Sans 700 Italic - Latin extended */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.eot');
+  src: local('Noto Sans Bold Itealic'), local('NotoSansBoldItalic'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.woff2') format('woff2'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.woff') format('woff'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.ttf') format('truetype'),
+       url('/assets/fonts/NotoSans/Noto-Sans-latin-ext-700-italic.svg#NotoSans') format('svg');
+}

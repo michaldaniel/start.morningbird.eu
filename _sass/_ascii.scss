@@ -1,0 +1,16 @@
+.ascii {
+	pre {
+		font-size: 70%;
+		text-align: center;
+	}
+	
+	margin: $margin-america 0;
+	
+	@media screen and (max-width: $breakpoint-medium) {
+		font-size: 90%;
+	}
+	
+	@media screen and (max-width: $breakpoint-small) {
+		font-size: 75%;
+	}
+}

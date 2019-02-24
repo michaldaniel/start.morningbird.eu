@@ -1,0 +1,95 @@
+.col {
+	display: block;
+	float: left;
+	margin: $margin-l 0 $margin-l $margin-xxl;
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	@media only screen and (max-width: $breakpoint) {
+		margin: $margin-s 0 $margin-s 0;
+	}
+}
+
+.group {
+	zoom:1; /* For IE 6/7 */
+	
+	&:after {
+		clear:both;
+	}
+	
+	&:before, &:after { 
+		content:"";
+		display:table;
+	}
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+}
+
+.span_2_of_2 {
+	width: calc(50% - (#{$margin-xxl}/2));
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}
+
+.span_1_of_2 {
+	width: calc(50% - (#{$margin-xxl}/2));
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}
+
+.span_1_smaller_of_2 {
+	width: $margin-xxl;
+
+	img {
+		max-width: $margin-xxl  !important;
+		margin-top: 16px !important;
+		margin-bottom: 16px !important;
+	}
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}
+
+.span_1_bigger_of_2 {
+	width: calc(100% - (#{$margin-xxl} * 2));
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}
+
+.span_2_smaller_of_2 {
+	width: $margin-xxl;
+
+	img {
+		max-width: $margin-xxl  !important;
+		margin-top: 16px !important;
+		margin-bottom: 16px !important;
+	}
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}
+
+
+.span_2_bigger_of_2 {
+	width: calc(100% - (#{$margin-xxl} * 2));
+
+	@media only screen and (max-width: $breakpoint) {
+		width: 100%;
+	}
+}

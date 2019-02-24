@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+{% include head.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css?v=3.0">
+
+</head>
+
+<body>
+	
+<!-- START OF TOP BAR -->
+
+{% include topbar.html %}
+
+<!-- END OF TOP BAR -->
+
+<!-- START OF CONTENT -->
+
+<main class="main">
+
+{{ content }}
+
+</main>
+
+<!-- END OF CONTENT -->
+	
+<!-- START OF FOOTER -->
+
+{% include footer.html %}
+
+<!-- END OF FOOTER -->
+
+<!-- START OF SCRIPTS -->
+
+{% include scripts.html %}
+
+<!-- END OF SCRIPTS -->
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+.first-column-header {
+    td { 
+        &:first-of-type {
+            color: $color-accent;
+            font-weight: bold;
+        }
+    }
+}
+
