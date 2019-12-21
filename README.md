@@ -1,6 +1,6 @@
-# core.morningbird.eu
+# start.morningbird.eu
 
-Template for creating simple status pages
+Source of my startpage site running at start.morningbird.eu
 
 ## License
 
