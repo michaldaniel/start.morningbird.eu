@@ -1,6 +1,6 @@
 # My variables
-name:
-description:
+name: start.morningbird.eu
+description: The border between wired and real world isn't all that clear. I'll be able to enter it soon. I'll translate myself into it.
 author:
   name: Michał Daniel
   email: contact@michaldaniel.eu
@@ -27,6 +27,6 @@ kramdown:
 highlighter: rouge
 
 # Site
-url:
+url: https://start.morningbird.eu
 website: https://morningbird.eu
 sources: https://github.com/michaldaniel
